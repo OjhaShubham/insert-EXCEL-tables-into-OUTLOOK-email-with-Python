@@ -46,7 +46,7 @@ outlook = client.Dispatch('Outlook.Application')
 message = outlook.CreateItem(0)
 
 # set the message properties
-message.To = 'shubham-geetashankar.ojha@capgemini.com'
+message.To = 'someone@gmail.com'
 message.Subject = 'Please review!'
 message.HTMLBody = html_body.format(image_path)
 
